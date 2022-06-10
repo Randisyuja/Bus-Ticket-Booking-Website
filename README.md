@@ -1,2 +1,2 @@
 # test-only
-as i beginner i dedicate this to my first ever repository while learning
+as i beginner i will learn more more about this

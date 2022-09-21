@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Randi Syuja</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <style>
+            .con{
+                padding:1rem;
+                background-color:#727272;
+                color:#fff;
+                text-align:center;
+            }
+            
+            .con-t{
+                border-radius:50px;
+                padding:1rem;
+                background-color:gainsboro;
+                color:#fff;
+                text-align:center;
+            }
+
+            .row{
+                padding:1rem;
+                color:#fff;
+                text-align:center;
+            }
+
+            .row2{
+                margin-bottom:1rem;
+                border:2px solid #fff;
+                border-radius:40px;
+            }
+            
+            .col{
+                padding:5px;
+                background-color:gainsboro;
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                border:2px solid #727272;
+                border-radius:50px;
+                text-align:center;
+                color:black;
+            }
+
+            .navi{
+                padding-left:2rem;
+                text-decoration: none;
+                font-family:Arial;
+                color:#fff;
+            }
+
+            nav{
+                padding:15px;
+                margin-top:-10px;
+                margin-right:-10px;
+                margin-left:-10px;
+            }
+
+            nav a{
+                margin:20px;
+                
+            }
+
+            .nav-item{
+                text-decoration:none;
+                font-size:medium;
+                color:#fff;
+            }
+
+            #n2e4:hover{
+                color:black;
+            }
+            #n2e5:hover{
+                color:black;
+            }
+
+            .img{
+                width:200px;
+                height:auto;
+                align-items:left;
+                border-radius:35px;
+            }
+            button{
+                border:2px solid gainsboro;
+                border-radius:20px;
+            }
+            
+            #b2e4:hover{
+                background-color:darkorange;
+                color:white;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="con">
+            <div class="row" style="border-bottom:2px solid #fff;">
+                <div class="col">Randi Syuja's Website</div>
+                <div class="col-sm"></div>
+                <div class="col-sm"></div>
+            </div>
+            <div class="row">
+                <nav>
+                    <a class="nav-item" href="#" id="n2e4">Home</a>
+                    <a class="nav-item" href="#" id="n2e5">About</a>
+                </nav>
+            </div>
+            <div class="con-t">
+                <div class="con" style="border-radius:40px">
+                    <form action="form.php" method="post">
+                        <div class="row row2">
+                            <div class="col-sm">
+                                <img class="img" src="img/haryanto.jpg">
+                            </div>
+                            <div class="col-sm">
+                                <b style="font-size:xx-large">PO Haryanto</b>
+                            </div>
+                            <div class="col-sm">
+                                <br><br>
+                                <button id="b2e4" value="PO Haryanto" name="bus">Pesan</button>
+                            </div>
+                        </div>
+                        <div class="row row2">
+                            <div class="col-sm">
+                                <img class="img" src="img/rosalia indah.jpg">
+                            </div>
+                            <div class="col-sm">
+                                <b style="font-size:xx-large">PT Rosalia Indah</b>
+                            </div>
+                            <div class="col-sm">
+                                <br><br>
+                                <button id="b2e4" value="PT Rosalia Indah" name="bus">Pesan</button>
+                            </div>
+                        </div>
+                        <div class="row row2">
+                            <div class="col-sm">
+                                <img class="img" src="img/sinar jaya.jpg">
+                            </div>
+                            <div class="col-sm">
+                                <b style="font-size:xx-large">PO Sinar Jaya</b>
+                            </div>
+                            <div class="col-sm">
+                                <br><br>
+                                <button id="b2e4" value="PO Sinar Jaya" name="bus">Pesan</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

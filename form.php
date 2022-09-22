@@ -7,7 +7,7 @@
 
         
         <!-- Bootstrap CSS -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="test/css/bootstrap.min.css" rel="stylesheet">
 
         <style>
             .con{

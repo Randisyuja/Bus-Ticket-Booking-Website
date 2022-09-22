@@ -19,7 +19,7 @@ $data["lansia"]=$_POST["lansia"];
         <title>Randi Syuja</title>
 
         <!-- Bootstrap CSS -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="test/css/bootstrap.min.css" rel="stylesheet">
         <style>
             .con{
                 padding:1rem;

@@ -99,22 +99,22 @@
                                 <tr>
                                     <td width="200" align="left">Nama Lengkap</td>
                                     <td>:</td>
-                                    <td><input type="text" style="width:800px;" name="nama"></td>
+                                    <td align="left"><input type="text" style="width:800px;" name="nama"></td>
                                 </tr>
                                 <tr>
                                     <td width="200" align="left">Nomor Identitas</td>
                                     <td>:</td>
-                                    <td><input type="text" style="width:800px"  name="nomoriden"></td>
+                                    <td align="left"><input type="text" style="width:800px"  name="nomoriden"></td>
                                 </tr>
                                 <tr>
                                     <td width="200" align="left">No. HP</td>
                                     <td>:</td>
-                                    <td><input type="text" style="width:800px" name="nohp"></td>
+                                    <td align="left"><input type="text" style="width:800px" name="nohp"></td>
                                 </tr>
                                 <tr>
                                     <td width="200" align="left">Kelas Penumpang</td>
                                     <td>:</td>
-                                    <td>
+                                    <td align="left">
                                         <select style="width:800px" name="kelas" id="kelas" onchange="hargaperkelas()">
                                             <option value="" selected disabled>-- Pilih Kelas --</option>
                                             <option value="Ekonomi">Ekonomi</option>
@@ -126,27 +126,27 @@
                                 <tr>
                                     <td width="200" align="left">Jadwal Keberangkatan</td>
                                     <td>:</td>
-                                    <td><input type="date" style="width:800px"></td>
+                                    <td align="left"><input type="date" style="width:800px"></td>
                                 </tr>
                                 <tr>
                                     <td width="200" align="left">Jumlah Penumpang</td>
                                     <td>:</td>
-                                    <td><input type="text" id="penumpang" style="width:800px" name="penumpang"></td>
+                                    <td align="left"><input type="text" id="penumpang" style="width:800px" name="penumpang"></td>
                                 </tr>
                                 <tr>
                                     <td width="200" align="left">Jumlah Penumpang Lansia</td>
                                     <td>:</td>
-                                    <td><input type="text" id="lansia" style="width:800px" name="lansia"></td>
+                                    <td align="left"><input type="text" id="lansia" style="width:800px" name="lansia"></td>
                                 </tr>
                                 <tr>
                                     <td width="200" align="left">Harga Tiket</td>
                                     <td>:</td>
-                                    <td><div id="harga" name="harga" align="left" style="padding-left:53px;"><div></td>
+                                    <td align="left"><div id="harga" name="harga" align="left"><div></td>
                                 </tr>
                                 <tr>
                                     <td width="200" align="left">Total Bayar</td>
                                     <td>:</td>
-                                    <td><div id="total" name="total" align="left" style="padding-left:53px;"><div></td>
+                                    <td align="left"><div id="total" name="total" align="left"><div></td>
                                 </tr>
                             </table>
                             <br><br>

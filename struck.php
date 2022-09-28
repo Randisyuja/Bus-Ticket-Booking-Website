@@ -109,5 +109,3 @@ $data["lansia"]=$_POST["lansia"];
         </div>
     </body>
 </html>
-    </body>
-</html>

@@ -1,2 +1,2 @@
-# test-only
-as i beginner i will learn more more about this
+# Bus Ticket Booking Website
+This is my first website. I use HTML, PHP, and Javascript.
